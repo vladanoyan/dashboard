@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="icon" href="img/favicon.png">
+    <title>S4FE</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/account-ui-reg.css">
+
+    <script>
+      document.addEventListener('touchmove', function(event) {
+        event = event.originalEvent || event;
+        if(event.scale > 1) {
+          event.preventDefault();
+        }
+      }, false);
+    </script>
+</head>
+<body>
+<header class="account container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container s_header">
+            <a class="navbar-brand" href="/">
+                <img src="https://account.s4fe.io/assets/auth/images/s4fe-logo-w.png" height="44" class="d-inline-block align-top" alt="s4fe_logo_004-black.png">
+            </a>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 left">
+            <div class="overlay"></div>
+            <img src="img/account.jpeg" alt="account">
+            <div class="leftSide">
+                <div class="footer">
+                    <h1>Accessible solutions to reduce and prevent loss or theft</h1>
+
+                    <ul>
+                        <li><a href="./Privacy-Policy.pdf" target="_blank">Privacy Policy</a></li>
+                        <li><a href="./Terms-Of-Use.pdf" target="_blank">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 right">
+            <div class="rightSide">
+                <h1 class="welcome-back">Welcome back</h1>
+                <p class="subTitle">Enter your Email to continue</p>
+                <div id="alerts"></div>
+                <form class="signUpForm" action="https://account.s4fe.io/register" method="POST" id="userSignupForm" novalidate="novalidate">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" class="form-control" id="email" placeholder="Email" autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="password_confirmation">Confirm Password:</label>
+                        <input type="password" name="password_confirmation" class="form-control" id="password_confirmation" placeholder="Confirm Password">
+                    </div>
+                    <div class="form-check checkTermSection">
+                        <span>By clicking Sign Up, you agree to our <a href="/Privacy-Policy.pdf" target="_blank">Terms of Use</a> and <a href="/Terms-Of-Use.pdf" target="_blank">Privacy Policy</a></span>
+                        <div>
+                            <input type="checkbox" name="terms" value="1" class="form-check-input">
+                        </div>
+                    </div>
+                    <button type="submit" class="form-control btn submitBtn">Sign Up</button>
+                    <input type="hidden" name="_token" value="YlycpEQYYq1EHjqEXsD966kTV7c5zxDl872yIngN">
+                </form>
+                <p>Already have an account?</p>
+                <a href="https://account.s4fe.io/signin" class="signInLink">Sign In</a>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/popper.min.js"></script>
+
+</body>
+</html>
+

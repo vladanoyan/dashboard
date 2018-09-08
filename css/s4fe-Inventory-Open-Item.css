@@ -1,0 +1,281 @@
+@font-face {
+  font-family: 'SF Pro Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: local("SF Pro Display"), url("../fonts/SF-Pro-Display-Regular.woff") format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+@font-face {
+  font-family: 'SF Pro Display 700';
+  font-style: normal;
+  font-weight: 700;
+  src: local("SF Pro Display"), url("../fonts/SF-Pro-Display-Bold.woff") format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+body {
+  font-family: 'SF Pro Display', sans-serif; }
+  body.no-scroll {
+    overflow: hidden; }
+
+.btn.focus, .btn:focus, .form-control:focus, button:focus {
+  outline: 0;
+  box-shadow: none; }
+
+.transition, a, a:hover, .button, .contentAMP .content .settingLeft ul .active, .contentAMP .content .settingLeft ul li, .contentAMP .content .settingLeft .setting .btnAddItem, .setting .btnAddItem, .modalAddItem .input_block .form-group .btnCopy, .modalAddItem .input_block .upDate {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+
+a, a:hover, .button {
+  text-decoration: none; }
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 26px !important; } }
+
+.contentAMP .content {
+  background: #f3f3f3; }
+  @media (min-width: 992px) {
+    .contentAMP .content {
+      height: unset;
+      padding: 0 30px; } }
+  .contentAMP .content .settingLeft {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; }
+    .contentAMP .content .settingLeft ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0; }
+      .contentAMP .content .settingLeft ul .active {
+        color: #0290ff !important;
+        position: relative; }
+        .contentAMP .content .settingLeft ul .active:before {
+          content: "";
+          border-bottom: 1px solid #0290ff;
+          position: absolute;
+          top: 33px;
+          display: block;
+          width: 100%;
+          left: 0; }
+          @media (max-width: 571px) {
+            .contentAMP .content .settingLeft ul .active:before {
+              display: none; } }
+        .contentAMP .content .settingLeft ul .active a {
+          color: #0290ff !important; }
+        .contentAMP .content .settingLeft ul .active i {
+          color: #0290ff !important; }
+      .contentAMP .content .settingLeft ul li {
+        color: #707A83;
+        font-size: 16px;
+        cursor: pointer;
+        float: left;
+        margin-right: 20px;
+        position: relative;
+        font-weight: 200; }
+        .contentAMP .content .settingLeft ul li:hover {
+          color: #0290ff !important; }
+          .contentAMP .content .settingLeft ul li:hover:before {
+            content: "";
+            border-bottom: 1px solid #0290ff;
+            position: absolute;
+            top: 33px;
+            display: block;
+            width: 100%;
+            left: 0; }
+            @media (max-width: 406px) {
+              .contentAMP .content .settingLeft ul li:hover:before {
+                top: 23px; } }
+        .contentAMP .content .settingLeft ul li i {
+          margin-right: 10px; }
+        .contentAMP .content .settingLeft ul li a {
+          color: #707A83; }
+          .contentAMP .content .settingLeft ul li a:hover {
+            color: #0290ff !important; }
+    .contentAMP .content .settingLeft .setting .btnAddItem {
+      color: #FFF;
+      font-size: 14px;
+      background: #eba721;
+      padding: 9px 27px;
+      border-radius: 0;
+      float: right;
+      clear: both;
+      position: relative;
+      top: 0; }
+      .contentAMP .content .settingLeft .setting .btnAddItem:hover {
+        opacity: 0.8;
+        top: 3px; }
+.contentAMP .pages {
+  margin-top: 30px; }
+  .contentAMP .pages .leftSection {
+    background: #FFF;
+    padding: 10px; }
+    @media (min-width: 767px) {
+      .contentAMP .pages .leftSection {
+        padding: 25px; } }
+    .contentAMP .pages .leftSection .title {
+      font-size: 15px;
+      text-align: left;
+      max-width: 310px; }
+    .contentAMP .pages .leftSection .titleStolen {
+      background-color: #FFDCDC;
+      color: #EB2525;
+      width: 70px;
+      height: 22px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 12px; }
+    .contentAMP .pages .leftSection .items ul {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      border-bottom: 1px solid rgba(151, 151, 151, 0.24);
+      padding-bottom: 10px; }
+      .contentAMP .pages .leftSection .items ul li {
+        width: 50%;
+        text-align: left;
+        color: #262626;
+        font-size: 13px;
+        margin-bottom: 10px; }
+        .contentAMP .pages .leftSection .items ul li i {
+          margin-right: 5px;
+          color: #adaaaa; }
+    .contentAMP .pages .leftSection .discriptionTitle {
+      margin-top: 20px;
+      font-size: 13px;
+      color: #262626;
+      text-align: left;
+      margin-bottom: 10px; }
+    .contentAMP .pages .leftSection .discription p {
+      font-size: 12px;
+      color: rgba(63, 63, 63, 0.65); }
+    .contentAMP .pages .leftSection .footer {
+      margin: 30px 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center; }
+      .contentAMP .pages .leftSection .footer .images {
+        max-width: 106px;
+        margin: 5px; }
+        .contentAMP .pages .leftSection .footer .images img {
+          width: 100%;
+          height: 70px; }
+
+.setting .btnAddItem {
+  color: #FFF;
+  font-size: 14px;
+  background: #eba721;
+  padding: 9px 27px;
+  border-radius: 0;
+  float: right;
+  clear: both;
+  position: relative;
+  top: 0; }
+  .setting .btnAddItem:hover {
+    opacity: 0.8;
+    top: 3px; }
+
+.modalAddItem {
+  z-index: 99999; }
+  .modalAddItem .modal-backdrop {
+    z-index: 99998; }
+  .modalAddItem .modal-content {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0; }
+  .modalAddItem .input_block .form-group {
+    position: relative;
+    display: flex; }
+    .modalAddItem .input_block .form-group .btnCopy {
+      color: #FFF;
+      background: #0290FF;
+      font-size: 12px;
+      height: 42px;
+      width: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #0290FF; }
+      .modalAddItem .input_block .form-group .btnCopy:hover {
+        opacity: 0.7; }
+      .modalAddItem .input_block .form-group .btnCopy i {
+        margin-right: 5px; }
+  .modalAddItem .input_block input.active:focus {
+    border-color: #0290FF; }
+  .modalAddItem .input_block input.active {
+    opacity: 0.5;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    font-size: 13px;
+    height: 42px;
+    border: 1px solid #737373; }
+  .modalAddItem .input_block label.active {
+    color: #313131;
+    font-size: 15px;
+    font-weight: bold; }
+  .modalAddItem .input_block .upDate {
+    color: #FFF;
+    text-align: center;
+    height: 60px;
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eba721;
+    border-radius: 8px; }
+    .modalAddItem .input_block .upDate:hover {
+      opacity: 0.8; }
+  .modalAddItem .modal-dialog {
+    max-width: 466px; }
+    .modalAddItem .modal-dialog .modal-body {
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 500px; }
+    .modalAddItem .modal-dialog .logo {
+      text-align: center;
+      margin-bottom: 30px;
+      margin-top: 20px;
+      width: 73px;
+      height: 73px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      padding: 13px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 4px solid #79c329;
+      margin: 0 auto; }
+      .modalAddItem .modal-dialog .logo img {
+        width: 66px;
+        font-weight: 100; }
+    .modalAddItem .modal-dialog .title {
+      margin-bottom: 20px; }
+      .modalAddItem .modal-dialog .title .succes {
+        font-size: 56px;
+        text-align: center;
+        color: #363636; }
+      .modalAddItem .modal-dialog .title .textUnder {
+        font-size: 16px;
+        color: #696969; }
+    @media (min-width: 576px) {
+      .modalAddItem .modal-dialog {
+        margin: 1.75rem auto; } }
+
+/*# sourceMappingURL=s4fe-Inventory-Open-Item.css.map */

@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="I">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <!-- open graph metas -->
+    <!-- open graph metas -->
+    <!-- favicons -->
+    <link rel="icon" href="img/icons/favicon.png">
+    <!-- /favicons -->
+    <title></title>
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/s4fe-Inventory.css">
+    <link rel="stylesheet" href="css/header-sideBar.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script type="text/javascript" src="js/popper.min.js"></script>
+
+    <!-- /stylesheets -->
+</head>
+
+<body>
+
+<!-- header -->
+<header>
+    <!-- navbar -->
+    <div class="container-fluid">
+       <div class="row">
+           <nav class="navbar navbar-expand-lg navbar-light animated zoomIn">
+               <div class="sections sectionOne col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                   <a class="navbar-brand" href="#"><img src="img/icons/s4fe_logo_004-black.png" alt="logo"></a>
+               </div>
+               <div class="navbar-collapse sections col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                   <div class="aroundBell sectiontwo sections">
+                       <img src="img/icons/bell.png" alt="">
+                   </div>
+                   <form class="form-inline my-2 my-lg-0 sections">
+                       <div class="dropdown">
+                           <button class="btn btndropDown dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                               Roman Ladyka
+                               <div class="around"></div>
+                           </button>
+                           <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                               <button class="dropdown-item" type="button">Action</button>
+                               <button class="dropdown-item" type="button">Another action</button>
+                               <button class="dropdown-item" type="button">Something else here</button>
+                           </div>
+                       </div>
+                   </form>
+               </div>
+           </nav>
+       </div>
+    </div>
+    <!-- navbar -->
+</header>
+<!-- /header -->
+
+<div class="container-fluid">
+    <div class="contentAMP">
+        <div class="row">
+            <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12 sidebar">
+                <ul>
+                    <li><img src="img/icons/dasboard.png" alt="dashboard">Dashboard</li>
+                    <li><img src="img/icons/buysafe.png" alt="buysafe">Buy S4F</li>
+                    <li class="active"><img src="img/icons/inventory.png" alt="inventory">Inventory</li>
+                    <li><img src="img/icons/search.png" alt="search">Search</li>
+                    <li><img src="img/icons/police-report.png" alt="search">Police Report</li>
+                </ul>
+            </div>
+            <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12 content">
+                <div class="row justify-content-center">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="settingLeft">
+                            <ul>
+                                <li class="active"><i class="fa fa-archive"></i><a href="s4fe-Inventory.html">Inventory (22)</a></li>
+                                <li><i class="fa fa-info-circle"></i><a href="s4fe-Inventory-reported.html">Reported (6)</a></li>
+                                <li><i class="fa fa-check-circle"></i><a href="s4fe-Inventory-founded.html">Founded(8)</a></li>
+                            </ul>
+                            <div class="setting">
+                                <!-- Button to Open the Modal -->
+                                <button type="button" class="btn btnAddItem">
+                                    ADD NEW
+                                    <i class="fa fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <table class="table" id="dataTable">
+                            <thead class="section">
+                            <tr class="headTr">
+                                <th scope="col">№</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">
+                                    <div class="activeSelect">
+                                        <select class="form-control" name="sellist1">
+                                            <option>Status</option>
+                                            <option>available</option>
+                                            <option>lost</option>
+                                            <option>stolen</option>
+                                        </select>
+                                    </div>
+                                </th>
+                                <th scope="col">Category</th>
+                                <th scope="col">Subcategory</th>
+                                <th scope="col">Serial Number</th>
+                                <th scope="col">Reward</th>
+                                <th scope="col">Report</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>john</td>
+                                <td class="aveilabe"><span>Available</span></td>
+                                <td>Electronics</td>
+                                <td>Cell Phones</td>
+                                <td>msalkh93241n</td>
+                                <td><button class="report" data-toggle="modal" data-target="#myModal">Pay Reward</button></td>
+                                <td><button class="report" data-toggle="modal" data-target="#myModalRewards">Report to Police</button>
+                                <div class="drop">
+                                    <span data-toggle="dropdown" class="menudropdown">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </span>
+                                        <div class="dropdown-menu dropdown-menu-left">
+                                            <a class="dropdown-item">
+                                                <i class="fa fa-pencil"></i>
+                                                Edit</a>
+                                            <a class="dropdown-item">
+                                                <i class="fa fa-trash"></i>
+                                                Delete</a>
+                                        </div>
+                                    </div>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Mark</td>
+                                <td class="lost"><span>lost</span></td>
+                                <td>Electronics</td>
+                                <td>Cell Phones</td>
+                                <td>msalkh93241n</td>
+                                <td><button class="report" data-toggle="modal" data-target="#myModal">Pay Reward</button></td>
+                                <td><button class="report" data-toggle="modal" data-target="#myModalRewards">Report to Police</button>
+                                <div class="drop">
+                                    <span data-toggle="dropdown" class="menudropdown">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </span>
+                                    <div class="dropdown-menu dropdown-menu-left">
+                                        <a class="dropdown-item">
+                                            <i class="fa fa-pencil"></i>
+                                            Edit</a>
+                                        <a class="dropdown-item">
+                                            <i class="fa fa-trash"></i>
+                                            Delete</a>
+                                    </div>
+                                </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Mark</td>
+                                <td class="stolen"><span>stolen</span></td>
+                                <td>Electronics</td>
+                                <td>Cell Phones</td>
+                                <td>msalkh93241n</td>
+                                <td><button class="report" data-toggle="modal" data-target="#myModal">Pay Reward</button></td>
+                                <td><button class="report" data-toggle="modal" data-target="#myModalRewards">Report to Police</button>
+                                    <div class="drop">
+                                    <span data-toggle="dropdown" class="menudropdown">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </span>
+                                        <div class="dropdown-menu dropdown-menu-left">
+                                            <a class="dropdown-item">
+                                                <i class="fa fa-pencil"></i>
+                                                Edit</a>
+                                            <a class="dropdown-item">
+                                                <i class="fa fa-trash"></i>
+                                                Delete</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Mark</td>
+                                <td class="stolen"><span>stolen</span></td>
+                                <td>Electronics</td>
+                                <td>Cell Phones</td>
+                                <td>msalkh93241n</td>
+                                <td><button class="report" data-toggle="modal" data-target="#myModal">Pay Reward</button></td>
+                                <td><button class="report" data-toggle="modal" data-target="#myModalRewards">Report to Police</button>
+                                    <div class="drop">
+                                    <span data-toggle="dropdown" class="menudropdown">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </span>
+                                        <div class="dropdown-menu dropdown-menu-left">
+                                            <a class="dropdown-item">
+                                                <i class="fa fa-pencil"></i>
+                                                Edit</a>
+                                            <a class="dropdown-item">
+                                                <i class="fa fa-trash"></i>
+                                                Delete</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>Mark</td>
+                                <td class="stolen"><span>stolen</span></td>
+                                <td>Electronics</td>
+                                <td>Cell Phones</td>
+                                <td>msalkh93241n</td>
+                                <td><button class="report" data-toggle="modal" data-target="#myModal">Pay Reward</button></td>
+                                <td><button class="report" data-toggle="modal" data-target="#myModalRewards">Report to Police</button>
+                                    <div class="drop">
+                                    <span data-toggle="dropdown" class="menudropdown">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </span>
+                                        <div class="dropdown-menu dropdown-menu-left">
+                                            <a class="dropdown-item">
+                                                <i class="fa fa-pencil"></i>
+                                                Edit</a>
+                                            <a class="dropdown-item">
+                                                <i class="fa fa-trash"></i>
+                                                Delete</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">6</th>
+                                <td>Mark</td>
+                                <td class="stolen"><span>stolen</span></td>
+                                <td>Electronics</td>
+                                <td>Cell Phones</td>
+                                <td>msalkh93241n</td>
+                                <td><button class="report" data-toggle="modal" data-target="#myModal">Pay Reward</button></td>
+                                <td><button class="report" data-toggle="modal" data-target="#myModalRewards">Report to Police</button>
+                                    <div class="drop">
+                                    <span data-toggle="dropdown" class="menudropdown">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </span>
+                                        <div class="dropdown-menu dropdown-menu-left">
+                                            <a class="dropdown-item">
+                                                <i class="fa fa-pencil"></i>
+                                                Edit</a>
+                                            <a class="dropdown-item">
+                                                <i class="fa fa-trash"></i>
+                                                Delete</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">7</th>
+                                <td>Mark</td>
+                                <td class="stolen"><span>stolen</span></td>
+                                <td>Electronics</td>
+                                <td>Cell Phones</td>
+                                <td>msalkh93241n</td>
+                                <td><button class="report" data-toggle="modal" data-target="#myModal">Pay Reward</button></td>
+                                <td><button class="report" data-toggle="modal" data-target="#myModalRewards">Report to Police</button>
+                                    <div class="drop">
+                                    <span data-toggle="dropdown" class="menudropdown">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </span>
+                                        <div class="dropdown-menu dropdown-menu-left">
+                                            <a class="dropdown-item">
+                                                <i class="fa fa-pencil"></i>
+                                                Edit</a>
+                                            <a class="dropdown-item">
+                                                <i class="fa fa-trash"></i>
+                                                Delete</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">8</th>
+                                <td>Mark</td>
+                                <td class="stolen"><span>stolen</span></td>
+                                <td>Electronics</td>
+                                <td>Cell Phones</td>
+                                <td>msalkh93241n</td>
+                                <td><button class="report" data-toggle="modal" data-target="#myModal">Pay Reward</button></td>
+                                <td><button class="report" data-toggle="modal" data-target="#myModalRewards">Report to Police</button>
+                                    <div class="drop">
+                                    <span data-toggle="dropdown" class="menudropdown">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </span>
+                                        <div class="dropdown-menu dropdown-menu-left">
+                                            <a class="dropdown-item">
+                                                <i class="fa fa-pencil"></i>
+                                                Edit</a>
+                                            <a class="dropdown-item">
+                                                <i class="fa fa-trash"></i>
+                                                Delete</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">9</th>
+                                <td>Mark</td>
+                                <td class="stolen"><span>stolen</span></td>
+                                <td>Electronics</td>
+                                <td>Cell Phones</td>
+                                <td>msalkh93241n</td>
+                                <td><button class="report" data-toggle="modal" data-target="#myModal">Pay Reward</button></td>
+                                <td><button class="report" data-toggle="modal" data-target="#myModalRewards">Report to Police</button>
+                                    <div class="drop">
+                                    <span data-toggle="dropdown" class="menudropdown">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </span>
+                                        <div class="dropdown-menu dropdown-menu-left">
+                                            <a class="dropdown-item">
+                                                <i class="fa fa-pencil"></i>
+                                                Edit</a>
+                                            <a class="dropdown-item">
+                                                <i class="fa fa-trash"></i>
+                                                Delete</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">10</th>
+                                <td>Mark</td>
+                                <td class="stolen"><span>stolen</span></td>
+                                <td>Electronics</td>
+                                <td>Cell Phones</td>
+                                <td>msalkh93241n</td>
+                                <td><button class="report" data-toggle="modal" data-target="#myModal">Pay Reward</button></td>
+                                <td><button class="report" data-toggle="modal" data-target="#myModalRewards">Report to Police</button>
+                                    <div class="drop">
+                                    <span data-toggle="dropdown" class="menudropdown">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </span>
+                                        <div class="dropdown-menu dropdown-menu-left">
+                                            <a class="dropdown-item">
+                                                <i class="fa fa-pencil"></i>
+                                                Edit</a>
+                                            <a class="dropdown-item">
+                                                <i class="fa fa-trash"></i>
+                                                Delete</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">11</th>
+                                <td>Mark</td>
+                                <td class="stolen"><span>stolen</span></td>
+                                <td>Electronics</td>
+                                <td>Cell Phones</td>
+                                <td>msalkh93241n</td>
+                                <td><button class="report" data-toggle="modal" data-target="#myModal">Pay Reward</button></td>
+                                <td><button class="report" data-toggle="modal" data-target="#myModalRewards">Report to Police</button>
+                                    <div class="drop">
+                                    <span data-toggle="dropdown" class="menudropdown">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </span>
+                                        <div class="dropdown-menu dropdown-menu-left">
+                                            <a class="dropdown-item">
+                                                <i class="fa fa-pencil"></i>
+                                                Edit</a>
+                                            <a class="dropdown-item">
+                                                <i class="fa fa-trash"></i>
+                                                Delete</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">12</th>
+                                <td>Mark</td>
+                                <td class="stolen"><span>stolen</span></td>
+                                <td>Electronics</td>
+                                <td>Cell Phones</td>
+                                <td>msalkh93241n</td>
+                                <td><button class="report" data-toggle="modal" data-target="#myModal">Pay Reward</button></td>
+                                <td><button class="report" data-toggle="modal" data-target="#myModalRewards">Report to Police</button>
+                                    <div class="drop">
+                                    <span data-toggle="dropdown" class="menudropdown">
+                                        <i class="fa fa-ellipsis-v"></i>
+                                    </span>
+                                        <div class="dropdown-menu dropdown-menu-left">
+                                            <a class="dropdown-item">
+                                                <i class="fa fa-pencil"></i>
+                                                Edit</a>
+                                            <a class="dropdown-item">
+                                                <i class="fa fa-trash"></i>
+                                                Delete</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- The Modal -->
+<div class="modal modalAddItem" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <div class="row input_block">
+                    <div class="col-12">
+                        <div class="logo">
+                            <img src="img/icons/s4fe_logo_004-black.png" alt="logo">
+                        </div>
+                        <div class="title">
+                            <p>SEND <span>50 REWARDS</span></p>
+                        </div>
+                        <div class="barCode">
+                            <img src="img/qrcode-71.png" alt="logo">
+                        </div>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control active" name="username" placeholder="">
+                                <button class="btnCopy"><i class="fa fa-copy"></i>Copy</button>
+                            </div>
+                            <button class="upDate">PAY REWARDS</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- The Modal -->
+<div class="modal modalRewards" id="myModalRewards">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <div class="row input_block">
+                    <div class="col-12">
+                        <div class="logo">
+                            <img src="img/icons/s4fe_logo_004-black.png" alt="logo">
+                        </div>
+                        <div class="content">
+                            <div class="title">
+                                <p>Please, pay reward to get your item back</p>
+                            </div>
+                            <div class="titleSecond">
+                                <p>How much rewards would you like to pay, in case if somebody finds your item?</p>
+                            </div>
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control active" id="rewards" name="username" placeholder="" value="">
+                                    <span class="s4fe">S4FE</span>
+                                </div>
+                            </form>
+                            <ul class="rewards">
+                                <li onclick="func(10)"><a href="#">10</a></li>
+                                <li onclick="func(20)"><a href="#">20</a></li>
+                                <li onclick="func(25)"><a href="#">25</a></li>
+                                <li onclick="func(50)"><a href="#">50</a></li>
+                            </ul>
+                        </div>
+                        <button class="upDate">PAY REWARDS</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- js -->
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/DataTable.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<!-- /js -->
+<script>
+  $(document).ready(function() {
+    $('#dataTable').DataTable();
+  } );
+</script>
+<script>
+  let value = document.getElementById("rewards");
+  value.value = 10;
+
+  function func(a){
+    value.value = a;
+  }
+</script>
+</body>
+</html>

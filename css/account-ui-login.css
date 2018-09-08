@@ -1,0 +1,400 @@
+/*Fonts*/
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFUIText-Regular.eot');
+    src: url('../fonts/SFUIText-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SFUIText-Regular.woff') format('woff'),
+    url('../fonts/SFUIText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Light';
+    src: url('../fonts/SFUIText-Light.eot');
+    src: url('../fonts/SFUIText-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SFUIText-Light.woff') format('woff'),
+    url('../fonts/SFUIText-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display Bold';
+    src: url('../fonts/SFUIText-Bold.eot');
+    src: url('../fonts/SFUIText-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SFUIText-Bold.woff') format('woff'),
+    url('../fonts/SFUIText-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+
+    font-family: "SF Pro Display";
+    overflow-x: hidden;
+}
+
+/*Global Styles*/
+@media (min-width: 1500px) {
+    .container {
+        max-width: 1400px
+    }
+}
+
+section .sec_name {
+    color: #2B2B2B;
+    font-family: "SF Pro Display Bold";
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 60px;
+    flex-basis: 100%;
+    margin: 40px auto 40px;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*Header*/
+header {
+    overflow: hidden;
+}
+
+/*//LOGIN page*/
+.account{
+    position: relative!important;
+    padding: 0;
+}
+.overlay{
+    position: fixed;
+    background-color: rgba(34, 34, 34, 0.55);
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    left: 0;
+}
+.account .navbar-brand img{
+    width: 120px;
+    height: 50px;
+}
+.left{
+    padding: 0;
+}
+.right{
+    padding: 20px;
+    background: #fff;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+@media(min-width: 767px){
+    .left, .right{
+        height: 100vh;
+    }
+
+}
+@media(min-width: 1200px){
+    .rightSide{
+        margin-right: 100px;
+    }
+}
+@media(min-width: 920px){
+    .rightSide h1{
+        font-size: 56px !important;
+    }
+}
+.account>.navbar{
+    background: none!important;
+    position: absolute!important;
+    width: 100%;
+    z-index: 9999;
+}
+.leftSide {
+    margin-top: 10%;
+    padding: 30px;
+}
+@media screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 1) {
+    .logoSection {
+        margin-bottom: 0;
+    }
+
+    .leftSide {
+        margin-top: 10%;
+    }
+
+    .signIn .rightSide {
+        margin-top: 5%;
+    }
+
+    .leftSide h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .rightSide h1 {
+        font-size: 36px;
+        line-height: 26px;
+    }
+
+    .signInForm, .signUpForm {
+        margin-top: 20px;
+    }
+
+    .signInForm .form-group, .signUpForm .form-group {
+        margin-bottom: 20px;
+    }
+
+    .signInForm label.error, .signUpForm label.error {
+        font-size: 10px;
+    }
+
+}
+
+.rightSide h1 {
+    color: #363636;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+    line-height: 43px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.rightSide .subTitle {
+    margin-left: 5px;
+}
+
+.rightSide p {
+    color: #696969;
+    font-size: 16px;
+    letter-spacing: 0.46px;
+    line-height: 19px;
+    margin-bottom: 0;
+}
+
+.signInForm, .signUpForm {
+    margin-top: 0px;
+    width: 300px;
+}
+
+.signInForm .form-group, .signUpForm .form-group {
+    margin-bottom: 25px;
+    max-height: 65px;
+}
+
+.signInForm label, .signUpForm label {
+    color: #313131;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    line-height: 16px;
+}
+
+.signInForm input, .signUpForm input {
+    color: #EBA721;
+    border: 1px solid rgba(105, 105, 105, 0.5);;
+    background-color: #fff;
+    border-radius: 0;
+    height: 38px;
+}
+
+.signInForm .submitBtn, .signUpForm .submitBtn {
+    height: 40px;
+    border-radius: 0;
+    background-color: #EBA721;
+    color: #FFFFFF;
+    font-size: 18px;
+    letter-spacing: 0.51px;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: none;
+}
+.signInForm .submitBtn, .signUpForm .submitBtn:hover {
+    background:#efb036;
+}
+.signInForm input:focus, .signUpForm input:focus {
+    color: #EBA721;
+    background-color: #fff;
+    border-color: #EBA721;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(235, 167, 33, 0.25);
+}
+
+.signInForm .btn.focus, .signInForm .btn:focus, .signUpForm .btn.focus, .signUpForm .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(235, 167, 33, 0.25);
+}
+
+.rightSide .createAccount, .rightSide .signInLink {
+    color: #EBA721;
+    text-decoration: underline;
+    font-size: 16px;
+    letter-spacing: 0.46px;
+    line-height: 19px;
+    margin-bottom: 0;
+}
+
+.signInForm input::placeholder, .signUpForm input::placeholder {
+    color: #EBA721;
+    opacity: 1;
+}
+
+.signInForm input:-ms-input-placeholder, .signUpForm input:-ms-input-placeholder {
+    color: #EBA721;
+}
+
+.signInForm input:-ms-input-placeholder, .signUpForm input:-ms-input-placeholder {
+    color: #EBA721;
+}
+
+.signInForm label.error, .signUpForm label.error {
+    color: #D50000;
+    font-family: "SF Pro Display";
+    font-size: 10px;
+    letter-spacing: 0.29px;
+    line-height: 12px;
+    font-weight: 500;
+}
+
+.signInForm .form-control.error, .signUpForm .form-control.error{
+    color: #D50000;
+    border: 1px solid #D50000;
+    background-color: #F8F8F8;
+}
+
+.signUpForm .form-check-input {
+    height: 13px;
+}
+
+.rightSide #alerts {
+    height: 50px;
+}
+.checkTermSection {
+    margin-bottom: 15px;
+    height: 35px;
+}
+
+.checkTermSection a {
+    height: 28px;
+    opacity: 0.74;
+    color: #696969;
+    font-size: 10px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 0.29px;
+    line-height: 14px;
+    display: inline;
+}
+
+.checkTermSection span {
+    height: 28px;
+    width: 160px;
+    opacity: 0.74;
+    color: #696969;
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 0.29px;
+    line-height: 14px;
+    display: inline-block;
+}
+
+.checkTermSection div {
+    margin-top: -33px;
+}
+
+.checkTermSection label.error {
+    margin-top: 30px;
+    line-height: 12px;
+}
+.leftSide h1 {
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 2.23px;
+    line-height: 59px;
+    margin-top: 30px;
+}
+
+.leftSide .footer {
+    position: absolute;
+    bottom: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 30px;
+}
+
+
+.leftSide .footer ul {
+    color: #EBA721;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+.leftSide .footer ul li a {
+    height: 50px;
+    color: #EBA721;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    line-height: 50px;
+    padding: 20px 0;
+    margin-right: 60px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.leftSide .footer ul li a:hover{
+    opacity: 0.5;
+}
+@media(max-width: 992px){
+    .leftSide .footer ul li a{
+        margin-right: 20px!important;
+    }
+    .leftSide h1{
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 2.23px;
+    line-height: 40px;
+}
+    .leftSide .footer{
+        padding: 15px!important;
+    }
+}
+
+
+.forgot{
+    float: right;
+    opacity: 0.58;
+    color: #696969;
+    font-size: 12px;
+}
+.forgot:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*//LOGIN*/

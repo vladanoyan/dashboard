@@ -1,0 +1,180 @@
+@font-face {
+  font-family: 'SF Pro Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: local("SF Pro Display"), url("../fonts/SF-Pro-Display-Regular.woff") format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+@font-face {
+  font-family: 'SF Pro Display 700';
+  font-style: normal;
+  font-weight: 700;
+  src: local("SF Pro Display"), url("../fonts/SF-Pro-Display-Bold.woff") format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+body {
+  font-family: 'SF Pro Display', sans-serif; }
+  body.no-scroll {
+    overflow: hidden; }
+
+.btn.focus, .btn:focus, .form-control:focus, button:focus {
+  outline: 0;
+  box-shadow: none; }
+
+.transition, a, a:hover, .button {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+
+a, a:hover, .button {
+  text-decoration: none; }
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 26px !important; } }
+
+.contentAMP .content {
+  background: #f3f3f3; }
+  @media (min-width: 992px) {
+    .contentAMP .content {
+      height: unset;
+      padding: 0 30px; } }
+  .contentAMP .content .wrapper {
+    border: 1px solid #DEDEDE;
+    border-radius: 4px;
+    background: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+    .contentAMP .content .wrapper ul {
+      padding: 0;
+      list-style-type: none;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap; }
+      @media (max-width: 520px) {
+        .contentAMP .content .wrapper ul {
+          display: block !important; } }
+      .contentAMP .content .wrapper ul .hr {
+        width: 1px;
+        background: #dedede;
+        height: 55px; }
+        @media (max-width: 510px) {
+          .contentAMP .content .wrapper ul .hr {
+            display: none; } }
+      .contentAMP .content .wrapper ul li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 8px auto; }
+        @media (max-width: 520px) {
+          .contentAMP .content .wrapper ul li {
+            justify-content: space-between !important; } }
+        .contentAMP .content .wrapper ul li .imgLogo img {
+          width: 60px;
+          height: 60px; }
+        .contentAMP .content .wrapper ul li .text {
+          font-size: 15px;
+          margin-right: 40px;
+          margin-left: 20px; }
+          .contentAMP .content .wrapper ul li .text p:first-child {
+            color: #003763;
+            font-weight: 500;
+            margin: 0; }
+          .contentAMP .content .wrapper ul li .text p:nth-child(2) {
+            color: rgba(112, 122, 131, 0.66);
+            margin-bottom: 0; }
+        .contentAMP .content .wrapper ul li .iconResolve p {
+          color: rgba(21, 196, 87, 0.65);
+          font-size: 15px;
+          margin: 0;
+          display: flex; }
+          .contentAMP .content .wrapper ul li .iconResolve p img {
+            width: 20px;
+            height: 20px;
+            margin-left: 5px; }
+        .contentAMP .content .wrapper ul li .iconReject p {
+          color: rgba(233, 75, 133, 0.65);
+          font-size: 15px;
+          margin: 0;
+          display: flex; }
+          .contentAMP .content .wrapper ul li .iconReject p img {
+            width: 20px;
+            height: 20px;
+            margin-left: 5px; }
+  .contentAMP .content .pages .title {
+    font-size: 18px;
+    color: #00345C; }
+  .contentAMP .content .pages .twoSectionLeft {
+    background: #FFF;
+    border: 1px solid #DEDEDE; }
+    .contentAMP .content .pages .twoSectionLeft .header {
+      padding: 15px; }
+      .contentAMP .content .pages .twoSectionLeft .header .totBalance {
+        font-size: 16px;
+        color: #16325C;
+        text-align: left;
+        margin-bottom: 5px; }
+      .contentAMP .content .pages .twoSectionLeft .header .amount {
+        color: #0290FF;
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 0; }
+    .contentAMP .content .pages .twoSectionLeft .footer {
+      padding: 20px; }
+      .contentAMP .content .pages .twoSectionLeft .footer .title p {
+        color: #8A96A0;
+        font-size: 12px;
+        text-align: left;
+        text-transform: uppercase; }
+      .contentAMP .content .pages .twoSectionLeft .footer .list {
+        padding: 0;
+        margin: 0;
+        list-style-type: none; }
+        .contentAMP .content .pages .twoSectionLeft .footer .list li {
+          color: #3F3F3F;
+          font-size: 14px;
+          margin-bottom: 25px; }
+          .contentAMP .content .pages .twoSectionLeft .footer .list li img {
+            height: 25px;
+            width: 25px;
+            margin-right: 10px; }
+  .contentAMP .content .pages .twoSectionRight {
+    background: #FFF;
+    border: 1px solid #DEDEDE;
+    padding: 20px; }
+    .contentAMP .content .pages .twoSectionRight .footer {
+      padding: 0px; }
+      .contentAMP .content .pages .twoSectionRight .footer .header {
+        padding: 5px; }
+      .contentAMP .content .pages .twoSectionRight .footer .col-sm-3 {
+        padding: 5px; }
+      .contentAMP .content .pages .twoSectionRight .footer .title p {
+        color: #8A96A0;
+        font-size: 12px;
+        text-align: left;
+        text-transform: uppercase; }
+      .contentAMP .content .pages .twoSectionRight .footer .circl li i {
+        font-size: 10px !important; }
+      .contentAMP .content .pages .twoSectionRight .footer .list {
+        padding: 0;
+        margin: 0;
+        list-style-type: none; }
+        .contentAMP .content .pages .twoSectionRight .footer .list .pending i {
+          color: #A9A9A9; }
+        .contentAMP .content .pages .twoSectionRight .footer .list .pendingUp i {
+          color: #26C863; }
+        .contentAMP .content .pages .twoSectionRight .footer .list .redy i {
+          color: red; }
+        .contentAMP .content .pages .twoSectionRight .footer .list li {
+          color: #4D6483;
+          font-size: 12px;
+          margin-bottom: 25px; }
+          .contentAMP .content .pages .twoSectionRight .footer .list li i {
+            margin-right: 10px;
+            font-size: 20px; }
+
+/*# sourceMappingURL=s4fe-dashboard.css.map */

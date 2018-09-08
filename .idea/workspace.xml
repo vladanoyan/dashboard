@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e92647d5-d20e-4d55-8950-242094a00002" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="new-dashboard" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="s4fe-Inventory-Report-To-Police-Fahrrad.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/s4fe-Inventory-Report-To-Police-Fahrrad.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="101" column="58" selection-start-line="101" selection-start-column="58" selection-end-line="101" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="s4fe-Inventory-Report-To-Police-Personliche.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/s4fe-Inventory-Report-To-Police-Personliche.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="78" column="69" selection-start-line="78" selection-start-column="69" selection-end-line="78" selection-end-column="69" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="s4fe-Inventory-Report-To-Police-Ereignis.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/s4fe-Inventory-Report-To-Police-Ereignis.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2385">
+              <caret line="159" column="90" lean-forward="true" selection-start-line="159" selection-start-column="90" selection-end-line="159" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>side</find>
+      <find>up</find>
+      <find>copy</find>
+      <find>second</find>
+      <find>buuton555</find>
+      <find>section</find>
+      <find>button1</find>
+      <find>blockT</find>
+      <find>Wit</find>
+      <find>drop</find>
+      <find>img</find>
+      <find>src</find>
+      <find>data</find>
+      <find>thumb</find>
+      <find>/img</find>
+      <find>src=&quot;Image</find>
+      <find>src=&quot;Images/</find>
+      <find>loading</find>
+      <find>dropdown</find>
+      <find>Browse</find>
+      <find />
+      <find>&lt;i class=&quot;fa fa-bell-o&quot;&gt;&lt;/i&gt;</find>
+      <find>i{         font-size: 35px;         color: $main-yellow;       }</find>
+      <find>font-size: 35px;</find>
+      <find>width: 35px</find>
+      <find>first</find>
+      <find>Buy via. Ethere</find>
+      <find>butto</find>
+      <find>right</find>
+      <find>date</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>src=&quot;img/</replace>
+      <replace>&lt;img src=&quot;img/icons/bell.png&quot; alt=&quot;&quot;&gt;</replace>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/css</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/css/account-reg.css" />
+        <option value="$PROJECT_DIR$/account-logIn.html" />
+        <option value="$PROJECT_DIR$/account-reg.html" />
+        <option value="$PROJECT_DIR$/s4fe-Inventory.html" />
+        <option value="$PROJECT_DIR$/css/s4fe-Inventory.scss" />
+        <option value="$PROJECT_DIR$/s4fe-Inventory-founded.html" />
+        <option value="$PROJECT_DIR$/css/s4fe-Inventory-founded.scss" />
+        <option value="$PROJECT_DIR$/s4fe-Inventory-Open-Item.html" />
+        <option value="$PROJECT_DIR$/css/s4fe-Inventory-Open-Item.scss" />
+        <option value="$PROJECT_DIR$/s4fe-Inventory-Report-To-Police.html" />
+        <option value="$PROJECT_DIR$/css/s4fe-Inventory-Report-To-Police.scss" />
+        <option value="$PROJECT_DIR$/s4fe-Inventory-reported.html" />
+        <option value="$PROJECT_DIR$/css/s4fe-Inventory-reported.scss" />
+        <option value="$PROJECT_DIR$/s4fe-Inventory-Reported-Item.html" />
+        <option value="$PROJECT_DIR$/css/s4fe-Inventory-Reported-Item.scss" />
+        <option value="$PROJECT_DIR$/s4fe-Inventory-Reported-Item-Verify.html" />
+        <option value="$PROJECT_DIR$/css/s4fe-Inventory-Reported-Item-Verify.scss" />
+        <option value="$PROJECT_DIR$/s4fe-Search.html" />
+        <option value="$PROJECT_DIR$/css/s4fe-Search.scss" />
+        <option value="$PROJECT_DIR$/s4fe-Search-input.html" />
+        <option value="$PROJECT_DIR$/css/s4fe-Search-input.scss" />
+        <option value="$PROJECT_DIR$/s4fe-Buy-S4fe.html" />
+        <option value="$PROJECT_DIR$/css/s4fe-Buy-S4fe.scss" />
+        <option value="$PROJECT_DIR$/css/account-my-ballance.scss" />
+        <option value="$PROJECT_DIR$/account-my-ballance.html" />
+        <option value="$PROJECT_DIR$/css/fileinput.css" />
+        <option value="$PROJECT_DIR$/s4fe-Add-New.html" />
+        <option value="$PROJECT_DIR$/s4fe-Inventory-Edit.html" />
+        <option value="$PROJECT_DIR$/css/s4fe-Add-New.scss" />
+        <option value="$PROJECT_DIR$/css/s4fe-Inventory-Edit.scss" />
+        <option value="$PROJECT_DIR$/s4fe-Edit-Account.html" />
+        <option value="$PROJECT_DIR$/s4fe-dashboard.html" />
+        <option value="$PROJECT_DIR$/css/s4fe-dashboard.scss" />
+        <option value="$PROJECT_DIR$/s4fe-Inventory-Reported-Verify.html" />
+        <option value="$PROJECT_DIR$/css/s4fe-Inventory-Reported-Verify.scss" />
+        <option value="$PROJECT_DIR$/Search.html" />
+        <option value="$PROJECT_DIR$/css/Search.scss" />
+        <option value="$PROJECT_DIR$/css/s4fe-Search-results.scss" />
+        <option value="$PROJECT_DIR$/s4fe-Search-results.html" />
+        <option value="$PROJECT_DIR$/js/bootstrap.notify.js" />
+        <option value="$PROJECT_DIR$/s4fe-Inventory-Report-To-Police-st1.html" />
+        <option value="$PROJECT_DIR$/s4fe-Inventory-Report-To-Police-st2.html" />
+        <option value="$PROJECT_DIR$/css/s4fe-Edit-Account.scss" />
+        <option value="$PROJECT_DIR$/css/s4fe-Inventory-Report-To-Police-st0.scss" />
+        <option value="$PROJECT_DIR$/css/header-sideBar.scss" />
+        <option value="$PROJECT_DIR$/css/s4fe-Inventory-Report-To-Police-Anzeige.scss" />
+        <option value="$PROJECT_DIR$/s4fe-Inventory-Report-To-Police-Ereignis.html" />
+        <option value="$PROJECT_DIR$/s4fe-Inventory-Report-To-Police-st0.html" />
+        <option value="$PROJECT_DIR$/s4fe-Inventory-Report-To-Police-Personliche.html" />
+        <option value="$PROJECT_DIR$/s4fe-Inventory-Report-To-Police-Anzeige.html" />
+        <option value="$PROJECT_DIR$/s4fe-Inventory-Report-To-Police-Fahrrad.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="4" />
+    <option name="y" value="23" />
+    <option name="width" value="1207" />
+    <option name="height" value="804" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="account-ui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="account-ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="account-ui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="account-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="account-ui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="account-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="datapicker.scss" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="account-ui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="account-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e92647d5-d20e-4d55-8950-242094a00002" name="Default" comment="" />
+      <created>1513847313012</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1513847313012</updated>
+      <workItem from="1513847314637" duration="5492000" />
+      <workItem from="1513854832237" duration="8533000" />
+      <workItem from="1530546029701" duration="2043000" />
+      <workItem from="1530548191937" duration="729000" />
+      <workItem from="1530549234139" duration="10988000" />
+      <workItem from="1530599858765" duration="894000" />
+      <workItem from="1530616514938" duration="1552000" />
+      <workItem from="1530628725104" duration="4704000" />
+      <workItem from="1530782114201" duration="197000" />
+      <workItem from="1531138472686" duration="606000" />
+      <workItem from="1531139095775" duration="9695000" />
+      <workItem from="1531163336839" duration="704000" />
+      <workItem from="1531205954495" duration="7912000" />
+      <workItem from="1531224647165" duration="55000" />
+      <workItem from="1531224729171" duration="43000" />
+      <workItem from="1531224914309" duration="48000" />
+      <workItem from="1531224985388" duration="333000" />
+      <workItem from="1531225744738" duration="940000" />
+      <workItem from="1531237907976" duration="11040000" />
+      <workItem from="1531255321856" duration="371000" />
+      <workItem from="1531256343317" duration="2264000" />
+      <workItem from="1531309752902" duration="647000" />
+      <workItem from="1531567093719" duration="3680000" />
+      <workItem from="1531645479619" duration="8451000" />
+      <workItem from="1531724551159" duration="1743000" />
+      <workItem from="1531727032330" duration="5196000" />
+      <workItem from="1531732885047" duration="955000" />
+      <workItem from="1531770279070" duration="14103000" />
+      <workItem from="1531832134011" duration="479000" />
+      <workItem from="1531834618801" duration="5183000" />
+      <workItem from="1531899040611" duration="8694000" />
+      <workItem from="1531918306237" duration="47000" />
+      <workItem from="1531932641025" duration="778000" />
+      <workItem from="1531936802294" duration="358000" />
+      <workItem from="1531939094049" duration="2784000" />
+      <workItem from="1531942479294" duration="332000" />
+      <workItem from="1531942831564" duration="4157000" />
+      <workItem from="1532015997180" duration="10952000" />
+      <workItem from="1532160771719" duration="5548000" />
+      <workItem from="1532253179717" duration="6075000" />
+      <workItem from="1532329152973" duration="648000" />
+      <workItem from="1532434258457" duration="12850000" />
+      <workItem from="1532504335520" duration="21000" />
+      <workItem from="1532514906081" duration="6631000" />
+      <workItem from="1534352812148" duration="686000" />
+      <workItem from="1534445515774" duration="557000" />
+      <workItem from="1534617446834" duration="626000" />
+      <workItem from="1535544344575" duration="1237000" />
+      <workItem from="1535743809431" duration="8579000" />
+      <workItem from="1535982704027" duration="587000" />
+      <workItem from="1536044137851" duration="8713000" />
+      <workItem from="1536168089868" duration="7211000" />
+      <workItem from="1536238406797" duration="1131000" />
+      <workItem from="1536407304469" duration="599000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="199381000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="4" y="23" width="1207" height="804" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787837" visible="true" weight="0.267285" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3281471" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="Structure" order="1" sideWeight="0.5007072" side_tool="true" weight="0.17588326" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24752475" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" sideWeight="0.5021216" side_tool="true" weight="0.17588326" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/datapicker.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="205" column="1" selection-start-line="205" selection-start-column="1" selection-end-line="205" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/s4fe-Inventory.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/account-reg.css" />
+    <entry file="file://$PROJECT_DIR$/css/account-ui-login.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/account-ui-reg.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-logIn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-reg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" column="64" lean-forward="true" selection-start-line="30" selection-start-column="64" selection-end-line="30" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/s4fe-Inventory.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/s4fe-Inventory-founded.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/s4fe-Inventory-Report-To-Police.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/s4fe-Inventory-Open-Item.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/s4fe-Inventory-Reported-Item.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/s4fe-Search.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/s4fe-Buy-S4fe.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="510" column="27" selection-start-line="510" selection-start-column="27" selection-end-line="510" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/account-my-ballance.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="198" column="24" selection-start-line="198" selection-start-column="24" selection-end-line="198" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-my-ballance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/fileinput.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1238">
+          <caret line="179" column="23" lean-forward="true" selection-start-line="179" selection-start-column="23" selection-end-line="179" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s4fe-Inventory-Reported-Item.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s4fe-Inventory-founded.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s4fe-Inventory-Report-To-Police.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s4fe-Inventory.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/s4fe-dashboard.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="213" column="24" selection-start-line="213" selection-start-column="24" selection-end-line="213" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s4fe-dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="182" column="73" selection-start-line="182" selection-start-column="73" selection-end-line="182" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/s4fe-Inventory-Reported-Verify.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="445" column="34" selection-start-line="445" selection-start-column="34" selection-end-line="445" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s4fe-Search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/s4fe-Add-New.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="159" column="4" selection-start-line="159" selection-start-column="4" selection-end-line="178" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/Search.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="65" selection-start-line="65" selection-end-line="219" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/s4fe-Inventory-reported.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="141" selection-start-line="141" selection-end-line="656" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s4fe-Inventory-reported.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="358" selection-start-line="358" selection-end-line="370" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="183" selection-start-line="183" selection-end-line="188" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/s4fe-Search-results.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="736" column="7" selection-start-line="736" selection-start-column="7" selection-end-line="736" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s4fe-Search-results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="404" column="9" selection-start-line="404" selection-start-column="9" selection-end-line="404" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap-notify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s4fe-Inventory-Report-To-Police-st1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/s4fe-Inventory-Report-To-Police-st2.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s4fe-Inventory-Report-To-Police-st2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="56" lean-forward="true" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/s4fe-Inventory-Report-To-Police-st1.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/s4fe-Inventory-Edit.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="163" column="5" selection-start-line="163" selection-start-column="5" selection-end-line="228" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s4fe-Inventory-Open-Item.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s4fe-Inventory-Reported-Verify.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="155" column="70" lean-forward="true" selection-start-line="155" selection-start-column="70" selection-end-line="155" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s4fe-Buy-S4fe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="257" column="46" lean-forward="true" selection-start-line="257" selection-start-column="46" selection-end-line="257" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s4fe-Add-New.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="109" column="57" selection-start-line="109" selection-start-column="57" selection-end-line="109" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s4fe-Edit-Account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="152" column="34" lean-forward="true" selection-start-line="147" selection-start-column="27" selection-end-line="152" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/s4fe-Edit-Account.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="258" column="23" selection-start-line="258" selection-start-column="23" selection-end-line="258" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/s4fe-Inventory-Report-To-Police-Personliche.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/header-sideBar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4560">
+          <caret line="304" lean-forward="true" selection-start-line="304" selection-end-line="304" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/s4fe-Inventory-Report-To-Police-Fahrrad.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="147" column="31" selection-start-line="147" selection-start-column="31" selection-end-line="147" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s4fe-Inventory-Edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="125" column="34" selection-start-line="122" selection-start-column="27" selection-end-line="125" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s4fe-Inventory-Report-To-Police-Personliche.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="78" column="69" selection-start-line="78" selection-start-column="69" selection-end-line="78" selection-end-column="69" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s4fe-Inventory-Report-To-Police-Ereignis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2385">
+          <caret line="159" column="90" lean-forward="true" selection-start-line="159" selection-start-column="90" selection-end-line="159" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s4fe-Inventory-Report-To-Police-Fahrrad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="101" column="58" selection-start-line="101" selection-start-column="58" selection-end-line="101" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

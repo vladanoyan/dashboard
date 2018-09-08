@@ -1,0 +1,192 @@
+@font-face {
+  font-family: 'SF Pro Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: local("SF Pro Display"), url("../fonts/SF-Pro-Display-Regular.woff") format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+@font-face {
+  font-family: 'SF Pro Display 700';
+  font-style: normal;
+  font-weight: 700;
+  src: local("SF Pro Display"), url("../fonts/SF-Pro-Display-Bold.woff") format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+@font-face {
+  font-family: "FontAwesome";
+  font-weight: normal;
+  font-style: normal;
+  src: local("SF Pro Display"), url("../fonts/SF-Pro-Display-Bold.woff") format("woff");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+body {
+  font-family: 'SF Pro Display', sans-serif; }
+  body.no-scroll {
+    overflow: hidden; }
+
+.btn.focus, .form-control:focus, button:focus {
+  outline: 0;
+  box-shadow: none; }
+
+.transition, a, a:hover, .button, .contentAMP .content .settingLeft .setting .btnAddItem, .modalAddItem .input_block .form-group .btnCopy, .modalAddItem .input_block .upDate {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+
+a, a:hover, .button {
+  text-decoration: none; }
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 26px !important; } }
+
+.contentAMP .content {
+  background: #f3f3f3; }
+  @media (min-width: 992px) {
+    .contentAMP .content {
+      height: unset;
+      padding: 0 30px; } }
+  .contentAMP .content .settingLeft {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end; }
+    .contentAMP .content .settingLeft .active span {
+      width: 100%;
+      padding-left: 30px;
+      color: #0290FF !important;
+      font-weight: 400;
+      font-size: 16px;
+      margin-right: 20px; }
+      @media (max-width: 544px) {
+        .contentAMP .content .settingLeft .active span {
+          font-size: 13px;
+          margin-right: 7px; } }
+    .contentAMP .content .settingLeft .active i {
+      color: #0290FF !important;
+      font-weight: 400; }
+    .contentAMP .content .settingLeft .title {
+      position: relative;
+      margin: 0; }
+      .contentAMP .content .settingLeft .title i {
+        position: absolute;
+        left: 10px;
+        top: 3px;
+        color: #a5abb1; }
+      .contentAMP .content .settingLeft .title span {
+        width: 100%;
+        padding-left: 30px;
+        color: #a5abb1;
+        font-weight: 100;
+        font-size: 16px;
+        margin-right: 20px; }
+        @media (max-width: 544px) {
+          .contentAMP .content .settingLeft .title span {
+            font-size: 13px;
+            margin-right: 7px; } }
+    .contentAMP .content .settingLeft .setting .btnAddItem {
+      color: #FFF;
+      font-size: 14px;
+      background: #eba721;
+      padding: 9px 27px;
+      border-radius: 0;
+      float: right;
+      clear: both;
+      position: relative;
+      top: 0; }
+      .contentAMP .content .settingLeft .setting .btnAddItem:hover {
+        opacity: 0.8;
+        top: 3px; }
+  .contentAMP .content .tel:after {
+    content: "CHF" !important; }
+
+.modalAddItem {
+  z-index: 99999; }
+  .modalAddItem .modal-backdrop {
+    z-index: 99998; }
+  .modalAddItem .modal-content {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0; }
+  .modalAddItem .input_block .form-group {
+    position: relative;
+    display: flex; }
+    .modalAddItem .input_block .form-group .btnCopy {
+      color: #FFF;
+      background: #0290FF;
+      font-size: 12px;
+      height: 42px;
+      width: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #0290FF; }
+      .modalAddItem .input_block .form-group .btnCopy:hover {
+        opacity: 0.7; }
+      .modalAddItem .input_block .form-group .btnCopy i {
+        margin-right: 5px; }
+  .modalAddItem .input_block input.active:focus {
+    border-color: #0290FF; }
+  .modalAddItem .input_block input.active {
+    opacity: 0.5;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    font-size: 13px;
+    height: 42px;
+    border: 1px solid #737373; }
+  .modalAddItem .input_block label.active {
+    color: #313131;
+    font-size: 15px;
+    font-weight: bold; }
+  .modalAddItem .input_block .upDate {
+    color: #FFF;
+    text-align: center;
+    height: 60px;
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eba721;
+    border-radius: 8px; }
+    .modalAddItem .input_block .upDate:hover {
+      opacity: 0.8; }
+  .modalAddItem .modal-dialog .modal-body {
+    padding: 2rem; }
+  .modalAddItem .modal-dialog .logo {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px; }
+    .modalAddItem .modal-dialog .logo img {
+      width: 106px; }
+  .modalAddItem .modal-dialog .title {
+    margin-bottom: 20px; }
+    .modalAddItem .modal-dialog .title p {
+      font-size: 26px;
+      text-align: center;
+      color: rgba(172, 170, 168, 0.78);
+      font-weight: 100;
+      text-transform: uppercase; }
+      .modalAddItem .modal-dialog .title p span {
+        font-weight: bold;
+        color: #0290FF;
+        margin-left: 15px; }
+  .modalAddItem .modal-dialog .barCode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; }
+    .modalAddItem .modal-dialog .barCode img {
+      width: 192px;
+      height: 192px; }
+  @media (min-width: 576px) {
+    .modalAddItem .modal-dialog {
+      margin: 1.75rem auto; } }
+
+/*# sourceMappingURL=s4fe-Inventory-Report-To-Police-Fahrrad.css.map */

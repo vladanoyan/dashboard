@@ -1,0 +1,283 @@
+// fonts
+@font-face {
+  font-family: 'SF Pro Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: local('SF Pro Display'), url('../fonts/SF-Pro-Display-Regular.woff') format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'SF Pro Display 700';
+  font-style: normal;
+  font-weight: 700;
+  src: local('SF Pro Display'), url('../fonts/SF-Pro-Display-Bold.woff') format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+// fonts
+
+// variables
+$white: #FFF;
+$black: #000;
+$main-default: #2B2B2B;
+$nav-color: #313131;
+$main-yellow: rgb(235, 167, 33);
+
+// variables
+
+// general
+body {
+  font-family: 'SF Pro Display', sans-serif;
+  &.no-scroll {
+    overflow: hidden;
+  }
+}
+
+.btn.focus, .btn:focus, .form-control:focus, button:focus{
+  outline: 0;
+  box-shadow: none;
+}
+.transition{
+  -webkit-transition: all 0.5s;
+  -moz-transition:  all 0.5s;
+  -ms-transition:  all 0.5s;
+  -o-transition:  all 0.5s;
+  transition:  all 0.5s;
+}
+a, a:hover, .button {
+  @extend .transition;
+  text-decoration: none;
+}
+h1 {
+  @media (max-width: 767px) {
+    font-size: 26px !important;
+  }
+}
+
+// /general
+
+.contentAMP {
+
+  .content{
+    background: #f3f3f3;
+    @media(min-width: 992px){
+      height: unset;
+      padding: 0 30px;
+    }
+    .settingLeft{
+      position: relative;
+      padding-top: 40px;
+      padding-bottom: 10px;
+      float: left;
+      width: 100%;
+      border-bottom:1px solid rgba(0,0,0,.1);
+      margin-top: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        .active{
+          color: #0290ff !important;
+          position: relative;
+          @extend .transition;
+          &:before{
+            content: "";
+            border-bottom: 1px solid #0290ff;
+            position: absolute;
+            top: 33px;
+            display: block;
+            width: 100%;
+            left: 0;
+            @media(max-width: 571px){
+              display: none;
+            }
+          }
+          a{
+            color: #0290ff !important;
+          }
+          i{
+            color: #0290ff !important;
+          }
+        }
+        li{
+          color:#707A83;
+          font-size: 16px;
+          cursor: pointer;
+          float: left;
+          margin-right: 20px;
+          position: relative;
+          font-weight: 200;
+          @extend .transition;
+          &:hover{
+            color: #0290ff !important;
+            &:before{
+              content: "";
+              border-bottom: 1px solid #0290ff;
+              position: absolute;
+              top: 33px;
+              display: block;
+              width: 100%;
+              left: 0;
+              @media(max-width: 406px){
+                top: 23px;
+              }
+            }
+          }
+          i{
+            margin-right: 10px;
+          }
+          a{
+            color:#707A83;
+            &:hover{
+              color: #0290ff !important;
+            }
+          }
+        }
+      }
+      .setting{
+        .btnAddItem{
+          color:$white;
+          font-size: 14px;
+          background: $main-yellow;
+          padding: 9px 27px;
+          border-radius: 0;
+          float: right;
+          clear: both;
+          position: relative;
+          top:0;
+          @extend .transition;
+          &:hover{
+            opacity: 0.8;
+            top:3px;
+          }
+        }
+      }
+    }
+  }
+  .pages{
+    margin-top: 30px;
+    .pad-no{
+      padding: 0;
+    }
+
+    .section{
+      margin-bottom: 20px;
+      background: #fff;
+      .pad{
+        padding: 0 15px;
+      }
+      .listing{
+        padding-left:15px;
+        margin: 0;
+        li{
+          color: rgba(69, 70, 75, 0.8);
+          font-size: 13px;
+          margin: 20px 0;
+        }
+      }
+      .title-wallet{
+        background-color: #f3f3f3;
+      }
+      .title{
+        padding-top: 16px;
+        h4{
+          color: #4D6483;
+          font-weight: 500;
+          font-size: 16px;
+          letter-spacing: 0.5px;
+          margin: 0;
+          padding: 16px 0;
+        }
+      }
+      .text{
+        font-size: 14px;
+        color: #45464B;
+        font-weight: 500;
+        padding: 20px 0;
+
+      }
+    }
+    .button3{
+      background-color: $main-yellow;
+      color: $white;
+      font-size: 14px;
+      outline: 0;
+      border: none;
+      padding: 20px 8px;
+      display: block;
+      width: 100%;
+      text-align: center;
+      float: left;
+      @extend .transition;
+      i{
+        color:$white;
+        margin-left:5px;
+
+      }
+      &:hover{
+        opacity: .7;
+      }
+
+    }
+    .textBlue{
+      color: #0290FF;
+      font-size: 15px;
+      font-weight: 500;
+      margin-top: 20px;
+      margin-bottom: 0;
+    }
+
+    .input_block{
+      .form-group{
+        margin-bottom: 0;
+        display: flex;
+      }
+      input.def{
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        font-size: 13px;
+        color: #45464B;
+        float: left;
+        border: 1px solid #C9D0D9;
+
+      }
+      input.Token_active{
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        font-size: 13px;
+        color: #45464B;
+        float: left;
+        border: 1px solid #C9D0D9;
+        background-color: #fff;
+      }
+
+
+
+      .button1{
+        border: 1px solid #CFD6DF;
+        background-color: #E7EFF7;
+        color: #8A96A0;
+        font-size: 14px;
+        outline: 0;
+        padding: 11px 12px;
+        display: block;
+        margin-bottom: 0;
+        width: 115px;
+        i{
+          margin-right: 5px;
+        }
+        @extend .transition;
+        &:hover{
+          opacity: .7;
+        }
+      }
+      }
+
+    }
+
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- saved from url=(0081)https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_animation1_multicss -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<script src="./jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#mainView").mousemove(function( event ) {
+  //getting mouse dimentions
+  var pageX = event.pageX;
+  var pageY = event.pageY;
+  var mainWidth = $(this).width();
+  var mainHeight = $(this).height();
+  //
+  //console.log(pageX);
+  ("#mainView").find("li").each(function( index ) {             
+    var depth = $(this).attr("dataDepth");
+    var scalable = $(this).attr("scalable");
+    var x = pageX*depth;
+    var y = pageY*depth;
+    var z = 0;      
+    var thisScale = mainWidth / mainHeight * 1;
+    //setting accelerated webkit transform                  
+    $(this).css("-webkit-transform", "translate3d("+x+"%,"+y+"%,"+z+"px"+")");                  
+    });
+});
+
+});
+</script> 
+</head>
+<body contenteditable="false">
+
+<p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;" cid="mainView"></div>
+
+
+
+</body></html>
